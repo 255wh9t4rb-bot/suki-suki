@@ -132,7 +132,10 @@ const people = [
    { name: "DREAMOFONE MINCHAN", image: "Screenshot 2026-10-03 19.03.35.png" },
    { name: "DREAMOFONE SARANG", image: "Screenshot 2026-10-03 19.05.01.png" },
    { name: "DREAMOFONE HWANHUI", image: "Screenshot 2026-10-03 19.05.54.png" },
-   
+   { name: "VOLTEQ JUNE", image: "VQ JUNE-1.jpg" },
+    { name: "VOLTEQ KASUGA", image: "VQ KASUGA.jpg" },
+    { name: "VOLTEQ LEO", image: " VQ LEO.jpg" },
+   { name: "VOLTEQ TERUTO", image: "VQ TERUTO-1.jpg" },
 
    
    
