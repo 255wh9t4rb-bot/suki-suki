@@ -136,6 +136,11 @@ const people = [
     { name: "VOLTEQ KASUGA", image: "VQ KASUGA.jpg" },
     { name: "VOLTEQ LEO", image: " VQ LEO.jpg" },
    { name: "VOLTEQ TERUTO", image: "VQ TERUTO-1.jpg" },
+   { name: "STC KANGMIN", image: "stc KANGMIN.jpg" },
+   { name: "STC MINSUNG", image: "stc Minsung.jpg" },
+   { name: "STC SIHYEON", image: "stc sihyeon.jpg" },
+   { name: "STC DONGHYEON", image: "STC Donghyeon.jpg" },
+   { name: "STC HYOYA", image: "STC HYOYA.jpg" },
 
    
    
