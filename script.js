@@ -74,6 +74,12 @@ const people = [
     { name: "LEVERGENT JIO", image: "JIO.avif" }, 
     { name: "LEVERGENT R", image: "R.avif" }, 
     { name: "LEVERGENT RIHYEON", image: "RIHYEON.avif" },
+   { name: "CMDM BYUNGHOON", image: "Byunghoon.jpg" },
+   { name: "CMDM HEEJU", image: "Heeju.jpg" },
+   { name: "CMDM HYUNHAH", image: "Hyunhah.jpg" },
+   { name: "CMDM JUNHYOUNG", image: "Junhyoung.jpg" },
+   { name: "CMDM BYUNGHOON", image: "Byunghoon.jpg" },
+   
    
    
 
