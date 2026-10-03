@@ -161,6 +161,12 @@ const people = [
    { name: "TRY THAT KION", image: "KION-TRY-THAT-scaled.jpg" },
    { name: "TRY THAT MINHA", image: "MINHA-TRY-THAT.jpg" },
    { name: "TRY THAT PIL", image: "PIL-TRY-THAT.jpg" },
+   { name: "SWEET:CH HWI", image: "sc hwi-2.jpg" },
+   { name: "SWEET:CH JIN", image: "sc jin.jpg" },
+   { name: "SWEET:CH RIKUTO", image: "sc rikuto.jpg" },
+   { name: "SWEET:CH SATOSHI", image: "sc satoshi.jpg" },
+   { name: "SWEET:CH TAIKI", image: "sc taiki.jpg" },
+   { name: "SWEET:CH WANGSEOK", image: "sc wangseok-1.jpg" },
    
    
    
