@@ -89,6 +89,10 @@ const people = [
    { name: "ASC2NT JAY", image: "JAY-3-900x600.jpeg" },
    { name: "ASC2NT KYLE", image: "KYLE-3-900x600.jpeg" },
    { name: "ASC2NT REON", image: "REON-3-900x600.jpeg" },
+   { name: "MYONE DOJUN", image: "MYONE DOJUN.jpg" },
+   { name: "MYONE SHIRO", image: "MYONE SHIRO.jpg" },
+   { name: "MYONE R", image: "MYONE R.jpg" },
+   { name: "MYONE ZENON", image: "MYONE ZENON.jpg" },
    
    
    
