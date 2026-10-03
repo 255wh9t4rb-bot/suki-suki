@@ -193,7 +193,12 @@ const people = [
    { name: "MY:ST JUNTAE", image: "myst 2-Juntae-.avif" },
    { name: "MY:ST WONCHEOL", image: "myst 3-Woncheol-.avif" },
    { name: "MY:ST WOOJIN", image: "myst 4-Woojin-.avif" },
-   { name: "TRY1 TSUKITO", image: "T1 tsukito-1.jpg" },
+   { name: "MY:ST KEONWOO", image: "myst 5-Keonwoo-.avif" },
+    { name: "LUMIERE G_ME", image: "LR G_ME.jpg" },
+    { name: "LUMIERE DAON", image: "LR daon-1.jpg" },
+    { name: "LUMIERE SION", image: "LR sion.jpg" },
+    { name: "LUMIERE TEO", image: "LR teo.jpg" },
+   { name: "LUMIERE RUI", image: "LR teo.jpg" },
    
    
    
