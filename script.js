@@ -79,6 +79,12 @@ const people = [
    { name: "CMDM HYUNHAH", image: "Hyunhah.jpg" },
    { name: "CMDM JUNHYOUNG", image: "Junhyoung.jpg" },
    { name: "CMDM NOHYUL", image: "Nohyul.jpg" },
+   { name: "DAYCHILD EDEN", image: "DAYCHILD-EDEN1.jpg" },
+   { name: "DAYCHILD INTAE", image: "DAYCHILD-INTAE1.jpg" },
+   { name: "DAYCHILD K", image: "DAYCHILD-K1.jpg" },
+   { name: "DAYCHILD SIWOO", image: "DAYCHILD-SIWOO1.jpg" },
+   { name: "DAYCHILD YEJONG", image: "DAYCHILD-YEJONG1.jpg" },
+   
    
    
    
