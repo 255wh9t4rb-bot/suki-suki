@@ -273,12 +273,6 @@ const resultContainer =
 const progress =
   document.getElementById("progress");
 
-const firstChoice =
-  document.getElementById("first-choice");
-
-const secondChoice =
-  document.getElementById("second-choice");
-
 
 /* ==================================================
    データ
@@ -523,66 +517,24 @@ function selectPerson(person) {
    カードの表示更新
 ================================================== */
 
-function updateCards() {
+function updateChoices() {
 
-  const cards =
-    document.querySelectorAll(
-      ".person-card"
-    );
+  firstChoice.textContent =
+    firstSelected
+      ? firstSelected.name
+      : "未選択";
 
-  cards.forEach(card => {
+  secondChoice.textContent =
+    secondSelected
+      ? secondSelected.name
+      : "未選択";
 
-    const name =
-      card.querySelector(
-        ".person-name"
-      ).textContent;
-
-    const label =
-      card.querySelector(
-        ".person-label"
-      );
-
-    card.classList.remove(
-      "first-selected"
-    );
-
-    card.classList.remove(
-      "second-selected"
-    );
-
-    label.textContent = "";
-
-
-    if (
+  nextButton.disabled =
+    !(
       firstSelected &&
-      firstSelected.name === name
-    ) {
-
-      card.classList.add(
-        "first-selected"
-      );
-
-      label.textContent =
-        "1番好き";
-    }
-
-
-    if (
-      secondSelected &&
-      secondSelected.name === name
-    ) {
-
-      card.classList.add(
-        "second-selected"
-      );
-
-      label.textContent =
-        "2番目に好き";
-    }
-
-  });
+      secondSelected
+    );
 }
-
 
 /* ==================================================
    選択状況
