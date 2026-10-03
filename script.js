@@ -122,6 +122,11 @@ const people = [
    { name: "ANTARES WOORI", image: "AT WOORI.jpeg" },
    { name: "ANTARES SEUNGHEE", image: "AT SEUNGHEE.jpeg" },
    { name: "ANTARES ZINO", image: "AT ZINO.jpeg" },
+    { name: "DREAMCODE SEONGWAN", image: "dc Seongwan.webp" },
+   { name: "DREAMCODE HYUNWOO", image: "dc hyunwoo.webp" },
+   { name: "DREAMCODE JAEHUN", image: "dc jaehun.webp" },
+   { name: "DREAMCODE JIMIN", image: "dc jimin.webp" },
+   { name: "DREAMCODE JONGHOON", image: "dc jonghoon.webp" },
    
    
    
