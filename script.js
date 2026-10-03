@@ -116,6 +116,12 @@ const people = [
    { name: "MUL SHINWOO", image: "MUL-SHINWOO4.jpg" },
    { name: "MUL WONCHUL", image: "MUL-WONCHUL.jpg" },
    { name: "MUL YUNSOL", image: "MUL-YUNSOL4.jpg" },
+   { name: "ANTARES HARU", image: "AT HARU.jpeg" },
+   { name: "ANTARES INO", image: "AT INO.jpeg" },
+   { name: "ANTARES JAEHO", image: "AT JAEHO.jpeg" },
+   { name: "ANTARES WOORI", image: "AT WOORI.jpeg" },
+   { name: "ANTARES SEUNGHEE", image: "AT SEUNGHEE.jpeg" },
+   { name: "ANTARES ZINO", image: "AT ZINO.jpeg" },
    
    
    
