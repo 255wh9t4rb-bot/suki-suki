@@ -5,7 +5,7 @@
 const people = [
 
   // ここに写真と名前を追加していく
-  // { name: "ANOHRTS WHOOHYUN", image: "" },
+  // { name: "ANOHRTS WHOOHYUN", image: "anohrts ウヒョン.png" },
   // { name: "ANOHRTS SOONCHAN", image: "images/02.jpg" },
 
 ];
