@@ -69,6 +69,11 @@ const people = [
     { name: "DIAZ MINGUN", image: "DIAZ MINGUN.webp" },
     { name: "DIAZ SINWOO", image: "DIAZ SINWOO.webp" },
     { name: "DIAZ SOTA", image: "DIAZ SOTA.webp" },
+       { name: "LEVERGENT HABIN", image: "HABIN.avif" },
+    { name: "LEVERGENT KHAIN", image: "KHAIN.avif" }, 
+    { name: "LEVERGENT JIO", image: "JIO.avif" }, 
+    { name: "LEVERGENT R", image: "R.avif" }, 
+    { name: "LEVERGENT RIHYEON", image: "RIHYEON.avif" },
    
    
 
