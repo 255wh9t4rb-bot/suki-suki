@@ -198,7 +198,13 @@ const people = [
     { name: "LUMIERE DAON", image: "LR daon-1.jpg" },
     { name: "LUMIERE SION", image: "LR sion.jpg" },
     { name: "LUMIERE TEO", image: "LR teo.jpg" },
-   { name: "LUMIERE RUI", image: "LR teo.jpg" },
+   { name: "LUMIERE RUI", image: "LR rui.jpg" },
+   { name: "SAEINT BEOMSOO", image: "ST Beomsoo.jpg" },
+    { name: "SAEINT SEOGYUM", image: "ST Seogyum.jpg" },
+    { name: "SAEINT YOONSANG", image: "ST Yoonsang.jpg" },
+    { name: "SAEINT BEOMSOO", image: "ST Beomsoo.jpg" },
+   
+   
    
    
    
