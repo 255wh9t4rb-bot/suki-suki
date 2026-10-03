@@ -519,16 +519,6 @@ function selectPerson(person) {
 
 function updateChoices() {
 
-  firstChoice.textContent =
-    firstSelected
-      ? firstSelected.name
-      : "未選択";
-
-  secondChoice.textContent =
-    secondSelected
-      ? secondSelected.name
-      : "未選択";
-
   nextButton.disabled =
     !(
       firstSelected &&
