@@ -42,10 +42,10 @@ const people = [
     { name: "NXON K", image: "nxon k.jpg" },
    { name: "NXON GYEOM", image: "nxon ギョム.jpg" },
    { name: "NXON JOHA", image: "nxon ジョハ.jpg" },
-   { name: "NXON ", image: "nxon k.jpg" },
-   { name: "NXON K", image: "nxon k.jpg" },
-   { name: "NXON K", image: "nxon k.jpg" },
-   { name: "NXON K", image: "nxon k.jpg" },
+   { name: "NXON ZIKI", image: "nxon ジム.jpg" },
+   { name: "NXON DAM", image: "nxon ダム.jpg" },
+   { name: "NXON MINGYU", image: "nxon ミンギュ.jpg" },
+   { name: "NXON MINJAE", image: "nxon ミンジェ.jpg" },
    
    
    
