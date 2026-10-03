@@ -127,6 +127,13 @@ const people = [
    { name: "DREAMCODE JAEHUN", image: "dc jaehun.webp" },
    { name: "DREAMCODE JIMIN", image: "dc jimin.webp" },
    { name: "DREAMCODE JONGHOON", image: "dc jonghoon.webp" },
+   { name: "DREAMOFONE JIHAN", image: "Screenshot 2026-10-03 19.02.45.png" },
+   { name: "DREAMOFONE JIWON", image: "Screenshot 2026-10-03 19.04.12.png" },
+   { name: "DREAMOFONE MINCHAN", image: "Screenshot 2026-10-03 19.03.35.png" },
+   { name: "DREAMOFONE SARANG", image: "Screenshot 2026-10-03 19.05.01.png" },
+   { name: "DREAMOFONE HWANHUI", image: "Screenshot 2026-10-03 19.05.54.png" },
+   
+
    
    
    
