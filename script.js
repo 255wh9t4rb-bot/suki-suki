@@ -64,7 +64,12 @@ const people = [
     { name: "NBIG SIAN", image: "N.BIg SIAN.jpeg" },
     { name: "NBIG KWON DOEUN", image: "NBIG KWON-DOEUN.jpeg" },
     { name: "NBIG SEUNGYEON", image: "NBIG SEUNGYEON.jpeg" },
-    { name: "NBIG LEE HAJOON", image: "n.big LEE HAJOON.jpeg" },
+    { name: "DIAZ HARUKI", image: "DIAZ HARUKI.webp" },
+    { name: "DIAZ K.O", image: " DIAZ K.O.webp" },
+    { name: "DIAZ MINGUN", image: "DIAZ MINGUN.webp" },
+    { name: "DIAZ SINWOO", image: "DIAZ SINWOO.webp" },
+    { name: "DIAZ SOTA", image: "DIAZ SOTA.webp" },
+   
    
 
 
