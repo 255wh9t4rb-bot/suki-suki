@@ -38,7 +38,16 @@ const people = [
    { name: "N.TOP KANGHYUN", image: "n.top kanghyun.jpg" },
    { name: "N.TOP MINSEO", image: "n.top minseo.jpg" },
    { name: "N.TOP TAKUTO", image: "n.top takuto.jpg" },
-
+   { name: "NXON KDAY", image: "nxon k day.jpg" },
+    { name: "NXON K", image: "nxon k.jpg" },
+   { name: "NXON GYEOM", image: "nxon ギョム.jpg" },
+   { name: "NXON JOHA", image: "nxon ジョハ.jpg" },
+   { name: "NXON ", image: "nxon k.jpg" },
+   { name: "NXON K", image: "nxon k.jpg" },
+   { name: "NXON K", image: "nxon k.jpg" },
+   { name: "NXON K", image: "nxon k.jpg" },
+   
+   
    
   
 
