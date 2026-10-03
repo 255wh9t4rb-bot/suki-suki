@@ -53,11 +53,12 @@ const people = [
    { name: "W3WAY DONGHYUN", image: "w3way ドンヒョン.webp" },
    { name: "W3WAY RYO", image: "w3way リョウ.webp" },
    { name: "W3WAY RINTARO", image: "w3way リンタロウ.webp" },
-   
-   
-   
-   
-  
+   { name: "WAKER IJUN", image: "weaker イジュン.jpeg" },
+   { name: "WAKER KWONHYEOP", image: "weaker クォンヒョプ.jpeg" },
+   { name: "WAKER KOHYEON", image: "weaker コヒョン.jpeg" },
+   { name: "WAKER SABYEOL", image: "weaker セビョル.jpeg" },
+   { name: "WAKER SEBUM", image: "weaker セボム.jpeg" },
+   { name: "WAKER LEO", image: "weaker リオ.jpeg" },
 
 
    
