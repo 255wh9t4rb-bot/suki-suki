@@ -84,6 +84,11 @@ const people = [
    { name: "DAYCHILD K", image: "DAYCHILD-K1.jpg" },
    { name: "DAYCHILD SIWOO", image: "DAYCHILD-SIWOO1.jpg" },
    { name: "DAYCHILD YEJONG", image: "DAYCHILD-YEJONG1.jpg" },
+   { name: "ASC2NT KARAM", image: "ASC2NT KARAM-3-.jpeg" },
+   { name: "ASC2NT HYOWON", image: "HYOWON-3-900x600.jpeg" },
+   { name: "ASC2NT JAY", image: "JAY-3-900x600.jpeg" },
+   { name: "ASC2NT KYLE", image: "KYLE-3-900x600.jpeg" },
+   { name: "ASC2NT REON", image: "REON-3-900x600.jpeg" },
    
    
    
