@@ -155,6 +155,12 @@ const people = [
    { name: "ADAP JONGHO", image: "AP Jongho3.jpg" },
    { name: "ADAP HYOTAE", image: "AP hyotae3.jpg" },
    { name: "ADAP JUNSEOK", image: "AP junseok3.jpg" },
+    { name: "TRY THAT A.TOM", image: "A.TOM-TRY-THAT.jpg" },
+   { name: "TRY THAT HYUKJIN", image: "TT HYUKJIN.png" },
+   { name: "TRY THAT HANSEO", image: "HANSEO-TRY-THAT.jpg" },
+   { name: "TRY THAT KION", image: "KION-TRY-THAT-scaled.jpg" },
+   { name: "TRY THAT MINHA", image: "MINHA-TRY-THAT.jpg" },
+   { name: "TRY THAT PIL", image: "PIL-TRY-THAT.jpg" },
    
    
    
