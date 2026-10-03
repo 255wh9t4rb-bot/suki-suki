@@ -202,17 +202,7 @@ const people = [
    { name: "SAEINT BEOMSOO", image: "ST Beomsoo.jpg" },
     { name: "SAEINT SEOGYUM", image: "ST Seogyum.jpg" },
     { name: "SAEINT YOONSANG", image: "ST Yoonsang.jpg" },
-    { name: "SAEINT BEOMSOO", image: "ST Beomsoo.jpg" },
-   
-   
-   
-   
-   
-   
-   
-   
-
-
+    { name: "SAEINT DONGGYU", image: "ST Donggyu.jpg" },
 
 
    
