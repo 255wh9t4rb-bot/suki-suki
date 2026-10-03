@@ -141,11 +141,18 @@ const people = [
    { name: "STC SIHYEON", image: "stc sihyeon.jpg" },
    { name: "STC DONGHYEON", image: "STC Donghyeon.jpg" },
    { name: "STC HYOYA", image: "STC HYOYA.jpg" },
+{ name: "STC HYOYA", image: "STC HYOYA.jpg" },
+   { name: "RE:GUYS D.I", image: "RG D.I.webp" },
+   { name: "RE:GUYS DAEYOUNG", image: "RG Daeyoung.webp" },
+   { name: "RE:GUYS DONGHYUN", image: "RG Donghyun.webp" },
+   { name: "RE:GUYS JINHYEON", image: "RG Jinhyeon.webp" },
+   { name: "RE:GUYS MINKI", image: "RG Minki.webp" },
+   { name: "RE:GUYS SEMIN", image: "RG Semin.jpg" },
+   { name: "RE:GUYS YEONGKI", image: "RG Yeongki.webp" },
+   
+   
 
-   
-   
-   
-   
+
 
 
    
