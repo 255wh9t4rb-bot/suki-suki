@@ -2,6 +2,7 @@
    写真・名前の登録場所
 ================================================== */
 
+
 const people = [
 
   // ここに写真と名前を追加していく
@@ -205,11 +206,6 @@ const people = [
     { name: "SAEINT DONGGYU", image: "ST Donggyu.jpg" },
 
 
-   
-
-];
-
-
 /* ==================================================
    画面
 ================================================== */
@@ -261,14 +257,19 @@ const personContainer =
   document.getElementById("person-container");
 
 const finalistsContainer =
-  document.getElementById("finalists-container");
+  document.getElementById(
+    "finalists-container"
+  );
 
 const rankingContainer =
-  document.getElementById("ranking-container");
+  document.getElementById(
+    "ranking-container"
+  );
 
 const resultContainer =
-  document.getElementById("result-container");
-
+  document.getElementById(
+    "result-container"
+  );
 
 const progress =
   document.getElementById("progress");
@@ -300,7 +301,11 @@ function showScreen(screen) {
   document
     .querySelectorAll(".screen")
     .forEach(element => {
-      element.classList.remove("active");
+
+      element.classList.remove(
+        "active"
+      );
+
     });
 
   screen.classList.add("active");
@@ -324,7 +329,9 @@ function shuffle(array) {
   ) {
 
     const j =
-      Math.floor(Math.random() * (i + 1));
+      Math.floor(
+        Math.random() * (i + 1)
+      );
 
     [
       result[i],
@@ -351,39 +358,48 @@ function createRounds() {
 
   rounds = [];
 
+  /*
+    4人ずつに分ける
+  */
+
   for (
     let i = 0;
     i < shuffled.length;
     i += 4
   ) {
 
-    let group =
+    const group =
       shuffled.slice(i, i + 4);
 
     /*
-      最後が4人未満の場合、
-      他の人を補充する
+      4人未満のグループは
+      作らない
+
+      その場合は後ろから補充する
     */
 
     if (group.length < 4) {
 
-      const used =
+      const alreadyUsed =
         new Set(group);
 
-      const available =
+      const candidates =
         shuffled.filter(
-          person => !used.has(person)
+          person =>
+            !alreadyUsed.has(person)
         );
 
       while (
         group.length < 4 &&
-        available.length > 0
+        candidates.length > 0
       ) {
 
         group.push(
-          available.shift()
+          candidates.shift()
         );
+
       }
+
     }
 
     rounds.push(group);
@@ -403,14 +419,29 @@ function renderRound() {
   progress.textContent =
     `${currentRound + 1} / ${rounds.length}`;
 
+
   personContainer.innerHTML = "";
+
+
+  /*
+    選択をリセット
+  */
 
   firstSelected = null;
 
   secondSelected = null;
 
-  updateChoices();
 
+  /*
+    次へを無効にする
+  */
+
+  updateNextButton();
+
+
+  /*
+    4人を表示
+  */
 
   group.forEach(person => {
 
@@ -419,6 +450,7 @@ function renderRound() {
 
     card.className =
       "person-card";
+
 
     card.innerHTML = `
 
@@ -431,16 +463,22 @@ function renderRound() {
         ${person.name}
       </div>
 
-      <div class="person-label"></div>
-
     `;
+
+
+    /*
+      画像を押したとき
+    */
 
     card.addEventListener(
       "click",
       () => {
+
         selectPerson(person);
+
       }
     );
+
 
     personContainer.appendChild(card);
 
@@ -455,8 +493,7 @@ function renderRound() {
 function selectPerson(person) {
 
   /*
-    1番好きに選ばれている場合
-    → 解除
+    すでに1位なら解除
   */
 
   if (firstSelected === person) {
@@ -465,9 +502,9 @@ function selectPerson(person) {
 
   }
 
+
   /*
-    2番好きに選ばれている場合
-    → 解除
+    すでに2位なら解除
   */
 
   else if (secondSelected === person) {
@@ -476,8 +513,9 @@ function selectPerson(person) {
 
   }
 
+
   /*
-    1番好きが空いている
+    1位が空いている
   */
 
   else if (firstSelected === null) {
@@ -486,8 +524,9 @@ function selectPerson(person) {
 
   }
 
+
   /*
-    2番好きが空いている
+    2位が空いている
   */
 
   else if (secondSelected === null) {
@@ -496,9 +535,10 @@ function selectPerson(person) {
 
   }
 
+
   /*
-    両方埋まっている場合
-    → 新しく押した人を2番好きにする
+    1位・2位が両方埋まっている
+    → 新しく押した人を2位にする
   */
 
   else {
@@ -507,9 +547,10 @@ function selectPerson(person) {
 
   }
 
+
   updateCards();
 
-  updateChoices();
+  updateNextButton();
 }
 
 
@@ -517,30 +558,75 @@ function selectPerson(person) {
    カードの表示更新
 ================================================== */
 
-function updateChoices() {
+function updateCards() {
 
-  nextButton.disabled =
-    !(
-      firstSelected &&
-      secondSelected
+  const cards =
+    document.querySelectorAll(
+      ".person-card"
     );
+
+
+  cards.forEach(card => {
+
+    const name =
+      card.querySelector(
+        ".person-name"
+      ).textContent;
+
+
+    /*
+      一旦選択表示を消す
+    */
+
+    card.classList.remove(
+      "first-selected"
+    );
+
+    card.classList.remove(
+      "second-selected"
+    );
+
+
+    /*
+      1位
+    */
+
+    if (
+      firstSelected &&
+      firstSelected.name === name
+    ) {
+
+      card.classList.add(
+        "first-selected"
+      );
+
+    }
+
+
+    /*
+      2位
+    */
+
+    if (
+      secondSelected &&
+      secondSelected.name === name
+    ) {
+
+      card.classList.add(
+        "second-selected"
+      );
+
+    }
+
+  });
 }
 
+
 /* ==================================================
-   選択状況
+   次へボタン
 ================================================== */
 
-function updateChoices() {
-
-  firstChoice.textContent =
-    firstSelected
-      ? firstSelected.name
-      : "未選択";
-
-  secondChoice.textContent =
-    secondSelected
-      ? secondSelected.name
-      : "未選択";
+function updateNextButton() {
 
   nextButton.disabled =
     !(
@@ -558,6 +644,10 @@ startButton.addEventListener(
   "click",
   () => {
 
+    /*
+      4人未満なら開始できない
+    */
+
     if (people.length < 4) {
 
       alert(
@@ -567,15 +657,23 @@ startButton.addEventListener(
       return;
     }
 
+
     currentRound = 0;
 
     selectedPeople = [];
 
+
+    /*
+      4人ずつ作る
+    */
+
     createRounds();
+
 
     showScreen(
       selectionScreen
     );
+
 
     renderRound();
 
@@ -591,6 +689,10 @@ nextButton.addEventListener(
   "click",
   () => {
 
+    /*
+      1位を追加
+    */
+
     if (
       firstSelected &&
       !selectedPeople.includes(
@@ -601,8 +703,13 @@ nextButton.addEventListener(
       selectedPeople.push(
         firstSelected
       );
+
     }
 
+
+    /*
+      2位を追加
+    */
 
     if (
       secondSelected &&
@@ -614,8 +721,13 @@ nextButton.addEventListener(
       selectedPeople.push(
         secondSelected
       );
+
     }
 
+
+    /*
+      次のグループ
+    */
 
     currentRound++;
 
@@ -629,16 +741,19 @@ nextButton.addEventListener(
 
     }
 
+
     else {
 
       /*
-        最終的に9人を選ぶ
+        ここまでで選ばれた人から
+        最大9人を選ぶ
       */
 
       selectedPeople =
         shuffle(
           selectedPeople
         ).slice(0, 9);
+
 
       renderFinalists();
 
@@ -653,39 +768,40 @@ nextButton.addEventListener(
 
 
 /* ==================================================
-   9人表示
+   最終9人表示
 ================================================== */
 
 function renderFinalists() {
 
   finalistsContainer.innerHTML = "";
 
-  selectedPeople.forEach(
-    person => {
 
-      const card =
-        document.createElement("div");
+  selectedPeople.forEach(person => {
 
-      card.className =
-        "finalist-card";
+    const card =
+      document.createElement("div");
 
-      card.innerHTML = `
+    card.className =
+      "finalist-card";
 
-        <img
-          src="${person.image}"
-          alt="${person.name}"
-        >
 
-        <p>
-          ${person.name}
-        </p>
+    card.innerHTML = `
 
-      `;
+      <img
+        src="${person.image}"
+        alt="${person.name}"
+      >
 
-      finalistsContainer.appendChild(card);
+      <p>
+        ${person.name}
+      </p>
 
-    }
-  );
+    `;
+
+
+    finalistsContainer.appendChild(card);
+
+  });
 }
 
 
@@ -700,7 +816,9 @@ rankingStartButton.addEventListener(
     finalRanking =
       [...selectedPeople];
 
+
     renderRanking();
+
 
     showScreen(
       rankingScreen
@@ -718,19 +836,24 @@ function renderRanking() {
 
   rankingContainer.innerHTML = "";
 
+
   finalRanking.forEach(
     (person, index) => {
 
       const item =
         document.createElement("div");
 
+
       item.className =
         "ranking-item";
 
+
       item.draggable = true;
+
 
       item.dataset.name =
         person.name;
+
 
       item.innerHTML = `
 
@@ -749,10 +872,14 @@ function renderRanking() {
 
       `;
 
-      rankingContainer.appendChild(item);
+
+      rankingContainer.appendChild(
+        item
+      );
 
     }
   );
+
 
   setupDragAndDrop();
 }
@@ -766,6 +893,7 @@ function setupDragAndDrop() {
 
   let dragged = null;
 
+
   const items =
     document.querySelectorAll(
       ".ranking-item"
@@ -777,7 +905,9 @@ function setupDragAndDrop() {
     item.addEventListener(
       "dragstart",
       () => {
+
         dragged = item;
+
       }
     );
 
@@ -785,7 +915,9 @@ function setupDragAndDrop() {
     item.addEventListener(
       "dragover",
       event => {
+
         event.preventDefault();
+
       }
     );
 
@@ -796,15 +928,23 @@ function setupDragAndDrop() {
 
         event.preventDefault();
 
-        if (dragged === item) {
+
+        if (
+          dragged === item
+        ) {
+
           return;
+
         }
+
 
         const all =
           [...rankingContainer.children];
 
+
         const draggedIndex =
           all.indexOf(dragged);
+
 
         const targetIndex =
           all.indexOf(item);
@@ -825,6 +965,7 @@ function setupDragAndDrop() {
 
         }
 
+
         updateRanking();
 
       }
@@ -842,6 +983,7 @@ function updateRanking() {
 
   const items =
     [...rankingContainer.children];
+
 
   finalRanking =
     items.map(item => {
@@ -898,14 +1040,17 @@ function renderResult() {
 
   resultContainer.innerHTML = "";
 
+
   finalRanking.forEach(
     (person, index) => {
 
       const item =
         document.createElement("div");
 
+
       item.className =
         "result-item";
+
 
       item.innerHTML = `
 
@@ -924,7 +1069,10 @@ function renderResult() {
 
       `;
 
-      resultContainer.appendChild(item);
+
+      resultContainer.appendChild(
+        item
+      );
 
     }
   );
@@ -944,6 +1092,7 @@ backButton.addEventListener(
         "最初からやり直しますか？"
       );
 
+
     if (answer) {
 
       showScreen(
@@ -957,7 +1106,7 @@ backButton.addEventListener(
 
 
 /* ==================================================
-   もう一度
+   もう一度やる
 ================================================== */
 
 againButton.addEventListener(
