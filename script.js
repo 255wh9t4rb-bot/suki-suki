@@ -98,6 +98,11 @@ const people = [
     { name: "EASTSHINE IEL", image: "ES IEL-4.jpg" },
     { name: "EASTSHINE LUMIN", image: "ES LUMIN-3-.jpg" },
     { name: "EASTSHINE PHOENIX", image: "ES PHOENIX-1-.webp" },
+   { name: "DROP Cheol Kyu", image: "dp Cheol Kyu.webp" },
+   { name: "DROP Gyu Eon", image: "dp Gyu Eon.webp" },
+   { name: "DROP Jae Wo", image: "dp Jae Won.webp" },
+   { name: "DROP Ju Sung", image: "dp Ju Sung.webp" },
+   { name: "DROP Seung Woo", image: "dp Seung Woo.webp" },
    
    
    
