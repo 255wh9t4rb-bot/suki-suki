@@ -103,6 +103,7 @@ const people = [
    { name: "DROP Jae Wo", image: "dp Jae Won.webp" },
    { name: "DROP Ju Sung", image: "dp Ju Sung.webp" },
    { name: "DROP Seung Woo", image: "dp Seung Woo.webp" },
+   { name: "DROP Seung Woo", image: "dp Seung Woo.webp" },
    
    
    
