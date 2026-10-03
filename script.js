@@ -10,6 +10,15 @@ const people = [
 { name: "ANOHRTS DAHOON", image: "anohrts ダフン.jpg" },
 { name: "ANOHRTS HYUNJE", image: "anohrts ヒュンジェ.jpg" },
 { name: "ANOHRTS KIHYUN", image: "anohtys ギヒョン.jpg" },
+   { name: "ASCENDER  HAESOL", image: "ascender ヘソル.jpg" },
+    { name: "ASCENDER  ROAN", image: "ascender ロアン.jpg" },
+    { name: "ASCENDER  JIHOO", image: "ascender ジフ.jpg" },
+    { name: "ASCENDER  YIJIN", image: "ascender イジン.jpg" },
+    { name: "ASCENDER  DL", image: "ascender イドゥル.jpg" },
+   
+
+
+   
 
 ];
 
