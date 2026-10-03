@@ -15,7 +15,13 @@ const people = [
     { name: "ASCENDER  JIHOO", image: "ascender ジフ.jpg" },
     { name: "ASCENDER  YIJIN", image: "ascender イジン.jpg" },
     { name: "ASCENDER  DL", image: "ascender イドゥル.jpg" },
+    { name: "CHASER  KANGBIN", image: "chaser カンビン.jpg" },
+    { name: "CHASER  KEISUKE", image: "chaser ケイスケ.jpg" },
+    { name: "CHASER  SIHUN", image: "chaser シフン.jpg" },
+    { name: "CHASER  YUNSEONG", image: "chaser ユンビン.jpg" },
+    { name: "CHASER  REN", image: "chaser レン.jpg" },
    
+  
 
 
    
