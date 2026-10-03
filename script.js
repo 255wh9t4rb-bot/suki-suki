@@ -26,6 +26,11 @@ const people = [
    { name: "D-ONE  SEJIN", image: "d-one セジン.jpeg" },
    { name: "D-ONE  HAN", image: "d-one ハン.jpeg" },
    { name: "D-ONE  HYUNWOONG", image: "d-one ヒョヌン.jpeg" },
+    { name: "DXMON TK", image: "dxmon TK.avif" },
+   { name: "DXMON HEE", image: "dxmon hee.webp" },
+   { name: "DXMON REX", image: "dxmon rex.avif" },
+   { name: "DXMON SEITA", image: "xmon セイタ.avif" },
+   { name: "DXMON MINJAE", image: "dxmon ミンジェ.avif" },
 
    
   
