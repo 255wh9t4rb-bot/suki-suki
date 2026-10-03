@@ -110,6 +110,12 @@ const people = [
    { name: "WHYNOT ROHOON", image: "wn rohoon.jpg" },
    { name: "WHYNOT DONGYEON", image: "wn rohoon.jpg" },
    { name: "WHYNOT SIHON", image: "wn sihon.jpg" },
+   { name: "MUL KANGSAN", image: "MUL-KANGSAN4.jpg" },
+   { name: "MUL LUHA", image: "MUL-LUHA4.jpg" },
+   { name: "MUL SEONGHUN", image: "MUL-SEONGHUN4.jpg" },
+   { name: "MUL SHINWOO", image: "MUL-SHINWOO4.jpg" },
+   { name: "MUL WONCHUL", image: "MUL-WONCHUL.jpg" },
+   { name: "MUL YUNSOL", image: "MUL-YUNSOL4.jpg" },
    
    
    
