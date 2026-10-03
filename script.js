@@ -46,6 +46,14 @@ const people = [
    { name: "NXON DAM", image: "nxon ダム.jpg" },
    { name: "NXON MINGYU", image: "nxon ミンギュ.jpg" },
    { name: "NXON MINJAE", image: "nxon ミンジェ.jpg" },
+   { name: "W3WAY HYECHEON", image: "w3way へチョン.webp" },
+   { name: "W3WAY AOI", image: "w3way アオイ.webp" },
+   { name: "W3WAY WOOSEOK", image: "w3way ウソク.webp" },
+   { name: "W3WAY XIHO", image: "w3way シホ.webp" },
+   { name: "W3WAY DONGHYUN", image: "w3way ドンヒョン.webp" },
+   { name: "W3WAY RYO", image: "w3way リョウ.webp" },
+   { name: "W3WAY RINTARO", image: "w3way リンタロウ.webp" },
+   
    
    
    
