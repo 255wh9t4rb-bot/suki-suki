@@ -178,6 +178,12 @@ const people = [
    { name: "HIGHWAY MINHYUK", image: "HG Minhyuk.jpg" },
    { name: "HIGHWAY ROOKIE", image: "HG ROOKIE.jpg" },
    { name: "HIGHWAY SSEN", image: "HG SSEN.jpg" },
+   { name: "GENUS　CHAEHOON", image: "GS CHAEHOON-1.jpg" },
+   { name: "GENUS　CHANYONG", image: "GS CHANYONG-1.jpg" },
+   { name: "GENUS　SEOHA", image: "GS SEOHA-1.jpg" },
+   { name: "GENUS　JAEYOUNG", image: "GS jaeyoung-1.jpg" },
+   { name: "GENUS　YUAN", image: "GS yuan-1.jpg" },
+   
    
    
    
