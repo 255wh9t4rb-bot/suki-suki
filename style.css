@@ -75,7 +75,7 @@ h2 {
 
 .main-button {
   display: block;
-  margin: 15px auto 0;
+  margin: 10px auto 0;
   padding: 15px 45px;
   border: none;
   border-radius: 999px;
@@ -120,11 +120,11 @@ h2 {
 }
 
 .person-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 18px;
-  max-width: 1100px;
-  margin: 30px auto;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  max-width: 420px;
+  margin: 15px auto;
+}
 }
 
 .person-card {
@@ -152,7 +152,7 @@ h2 {
 .person-card img {
   display: block;
   width: 100%;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 4 / 4;
   object-fit: cover;
   border-radius: 14px;
   background: #eee;
