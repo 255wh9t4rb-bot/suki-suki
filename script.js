@@ -78,7 +78,7 @@ const people = [
    { name: "CMDM HEEJU", image: "Heeju.jpg" },
    { name: "CMDM HYUNHAH", image: "Hyunhah.jpg" },
    { name: "CMDM JUNHYOUNG", image: "Junhyoung.jpg" },
-   { name: "CMDM BYUNGHOON", image: "Byunghoon.jpg" },
+   { name: "CMDM NOHYUL", image: "Nohyul.jpg" },
    
    
    
