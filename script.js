@@ -93,6 +93,11 @@ const people = [
    { name: "MYONE SHIRO", image: "MYONE SHIRO.jpg" },
    { name: "MYONE R", image: "MYONE R.jpg" },
    { name: "MYONE ZENON", image: "MYONE ZENON.jpg" },
+   { name: "EASTSHINE DONGJAE", image: "ES DONGJAE-5-.jpg" },
+    { name: "EASTSHINE HYUN", image: "ES HYUN-3-.jpg" },
+    { name: "EASTSHINE DONGJAE", image: "ES DONGJAE-5-.jpg" },
+    { name: "EASTSHINE DONGJAE", image: "ES DONGJAE-5-.jpg" },
+    { name: "EASTSHINE DONGJAE", image: "ES DONGJAE-5-.jpg" },
    
    
    
