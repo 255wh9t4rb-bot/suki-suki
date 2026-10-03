@@ -31,6 +31,13 @@ const people = [
    { name: "DXMON REX", image: "dxmon rex.avif" },
    { name: "DXMON SEITA", image: "xmon セイタ.avif" },
    { name: "DXMON MINJAE", image: "dxmon ミンジェ.avif" },
+   { name: "N.TOP CHAEMIN", image: "n.top chaemin.jpg" },
+   { name: "N.TOP CHANGLIN", image: "n.top changlin.jpg" },
+   { name: "N.TOP HEEWOO", image: "n.top heewoo.jpg" },
+   { name: "N.TOP HYUNWOONG", image: "n.top hyunwoong-.jpg" },
+   { name: "N.TOP KANGHYUN", image: "n.top kanghyun.jpg" },
+   { name: "N.TOP MINSEO", image: "n.top minseo.jpg" },
+   { name: "N.TOP TAKUTO", image: "n.top takuto.jpg" },
 
    
   
