@@ -20,6 +20,13 @@ const people = [
     { name: "CHASER  SIHUN", image: "chaser シフン.jpg" },
     { name: "CHASER  YUNSEONG", image: "chaser ユンビン.jpg" },
     { name: "CHASER  REN", image: "chaser レン.jpg" },
+   { name: "D-ONE  IHWA", image: "d-one イファ.jpg" },
+   { name: "D-ONE  JAEHOON", image: "d-one ジェフン.png" },
+   { name: "D-ONE  JOOYOUNG", image: "d-one ジュヨン.jpeg" },
+   { name: "D-ONE  SEJIN", image: "d-one セジン.jpeg" },
+   { name: "D-ONE  HAN", image: "d-one ハン.jpeg" },
+   { name: "D-ONE  HYUNWOONG", image: "d-one ヒョヌン.jpeg" },
+
    
   
 
