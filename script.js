@@ -103,7 +103,13 @@ const people = [
    { name: "DROP Jae Wo", image: "dp Jae Won.webp" },
    { name: "DROP Ju Sung", image: "dp Ju Sung.webp" },
    { name: "DROP Seung Woo", image: "dp Seung Woo.webp" },
-   { name: "DROP Seung Woo", image: "dp Seung Woo.webp" },
+   { name: "WHYNOT JUNHYEONG", image: "wn JUNHYEONG.jpg" },
+   { name: "WHYNOT TOSEI", image: "wn TOSEI.jpg" },
+   { name: "WHYNOT DOA", image: "wn doa.jpg" },
+   { name: "WHYNOT JEONG", image: "wn jeong-scaled.jpg" },
+   { name: "WHYNOT ROHOON", image: "wn rohoon.jpg" },
+   { name: "WHYNOT DONGYEON", image: "wn rohoon.jpg" },
+   { name: "WHYNOT SIHON", image: "wn sihon.jpg" },
    
    
    
