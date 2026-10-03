@@ -183,6 +183,15 @@ const people = [
    { name: "GENUS　SEOHA", image: "GS SEOHA-1.jpg" },
    { name: "GENUS　JAEYOUNG", image: "GS jaeyoung-1.jpg" },
    { name: "GENUS　YUAN", image: "GS yuan-1.jpg" },
+   { name: "TRY1 MIN", image: "T! min-1.jpg" },
+    { name: "TRY1 HARAM", image: "T1 chaharam.jpg" },
+    { name: "TRY1 JAMES", image: "T1 james.jpg" },
+    { name: "TRY1 JIHWAN", image: "T1 jihwan-1.jpg" },
+    { name: "TRY1 NEO", image: "T1 neo.jpg" },
+    { name: "TRY1 R1KE", image: "T1 r1ke-1.jpg" },
+    { name: "TRY1 TSUKITO", image: "T1 tsukito-1.jpg" },
+   
+   
    
    
    
