@@ -59,6 +59,7 @@ const people = [
    { name: "WAKER SABYEOL", image: "weaker セビョル.jpeg" },
    { name: "WAKER SEBUM", image: "weaker セボム.jpeg" },
    { name: "WAKER LEO", image: "weaker リオ.jpeg" },
+   { name: "WAKER LEO", image: "weaker リオ.jpeg" },
 
 
    
