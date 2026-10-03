@@ -167,6 +167,10 @@ const people = [
    { name: "SWEET:CH SATOSHI", image: "sc satoshi.jpg" },
    { name: "SWEET:CH TAIKI", image: "sc taiki.jpg" },
    { name: "SWEET:CH WANGSEOK", image: "sc wangseok-1.jpg" },
+   { name: "DIGNITY LUKE", image: "DG LUKE.jpeg" },
+   { name: "DIGNITY LUO", image: "DG LUO.jpeg" },
+   { name: "DIGNITY MINSEOK", image: "DG MINSEOK.jpeg" },
+   { name: "DIGNITY ON", image: "DG ON.jpeg" },
    
    
    
