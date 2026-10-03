@@ -149,6 +149,13 @@ const people = [
    { name: "RE:GUYS MINKI", image: "RG Minki.webp" },
    { name: "RE:GUYS SEMIN", image: "RG Semin.jpg" },
    { name: "RE:GUYS YEONGKI", image: "RG Yeongki.webp" },
+   { name: "ADAP DOWON", image: "AP Dowon3.jpg" },
+   { name: "ADAP HYUNSUNG", image: "AP Hyunsung3.jpg" },
+   { name: "ADAP JAEYOUNG", image: "AP Jaeyoung3.jpg" },
+   { name: "ADAP JONGHO", image: "AP Jongho3.jpg" },
+   { name: "ADAP HYOTAE", image: "AP hyotae3.jpg" },
+   { name: "ADAP JUNSEOK", image: "AP junseok3.jpg" },
+   
    
    
 
