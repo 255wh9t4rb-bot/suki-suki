@@ -190,6 +190,10 @@ const people = [
     { name: "TRY1 NEO", image: "T1 neo.jpg" },
     { name: "TRY1 R1KE", image: "T1 r1ke-1.jpg" },
     { name: "TRY1 TSUKITO", image: "T1 tsukito-1.jpg" },
+   { name: "MY:ST JUNTAE", image: "myst 2-Juntae-.avif" },
+   { name: "MY:ST WONCHEOL", image: "myst 3-Woncheol-.avif" },
+   { name: "MY:ST WOOJIN", image: "myst 4-Woojin-.avif" },
+   { name: "TRY1 TSUKITO", image: "T1 tsukito-1.jpg" },
    
    
    
