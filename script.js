@@ -171,6 +171,13 @@ const people = [
    { name: "DIGNITY LUO", image: "DG LUO.jpeg" },
    { name: "DIGNITY MINSEOK", image: "DG MINSEOK.jpeg" },
    { name: "DIGNITY ON", image: "DG ON.jpeg" },
+   { name: "HIGHWAY YUNHYEONG", image: "HG YUNHYEONG.jpg" },
+   { name: "HIGHWAY DAEHYUN", image: "HG DAEHYUN.jpg" },
+   { name: "HIGHWAY HUA", image: "HG HUA.jpg" },
+   { name: "HIGHWAY JUN", image: "HG JUN.jpg" },
+   { name: "HIGHWAY MINHYUK", image: "HG Minhyuk.jpg" },
+   { name: "HIGHWAY ROOKIE", image: "HG ROOKIE.jpg" },
+   { name: "HIGHWAY SSEN", image: "HG SSEN.jpg" },
    
    
    
