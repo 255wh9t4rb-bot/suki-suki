@@ -339,3 +339,82 @@ h2 {
   }
 
 }
+/* 選択中の順位表示 */
+.person-card {
+  position: relative;
+}
+
+.person-card.first-selected::after {
+  content: "1位！";
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: #292625;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.person-card.second-selected::after {
+  content: "2位！";
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: #a99a91;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+/* 次へを写真のすぐ下へ */
+#next-button {
+  margin-top: 12px;
+}
+
+/* スマホ */
+@media (max-width: 700px) {
+
+  .person-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin: 15px auto 8px;
+  }
+
+  .person-card {
+    padding: 6px;
+    border-radius: 14px;
+  }
+
+  .person-card img {
+    aspect-ratio: 1 / 1.15;
+    border-radius: 10px;
+  }
+
+  .person-name {
+    margin-top: 6px;
+    font-size: 12px;
+  }
+
+  .person-label {
+    display: none;
+  }
+
+  .person-card.first-selected::after,
+  .person-card.second-selected::after {
+    top: 8px;
+    left: 8px;
+    padding: 5px 9px;
+    font-size: 12px;
+  }
+
+  #next-button {
+    margin-top: 8px;
+    padding: 12px 40px;
+  }
+}
